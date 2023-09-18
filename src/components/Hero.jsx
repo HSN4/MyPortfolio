@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="  sm:block flex relative flex-col justify-center items-center">
           <Reveal>
             {
-              <p className="text-[30px]   font-medium dark:text-whitecolor text-secondary ">
+              <p className="ss:text-[90px]  text-[20px]   font-medium dark:text-whitecolor text-secondary ">
                 {sentens2.map((letter, index) => (
                   <Textspan key={index}>
                     {letter === " " ? "\u00A0" : letter}
@@ -43,7 +43,7 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             {
-              <h2 className=" font-medium ss:text-[26px] text-[18px] mb-3 ml-2">
+              <h2 className=" font-medium ss:text-[26px] text-[22px] mb-3 ml-2">
                 <span className="text-primary dark:text-whitecolor">
                   {text}
                 </span>
