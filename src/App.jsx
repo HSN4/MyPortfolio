@@ -14,16 +14,13 @@ const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    setIsLoaded(true);
     setTimeout(() => {
-      setIsLoaded(false);
+      setIsLoaded(true);
     }, 1000);
   }, []);
   return (
     <>
       {isLoaded ? (
-        <div className="flex justify-center items-center h-[100vh]">hi</div>
-      ) : (
         <div className="w-full dark:bg-dark dark:text-white ">
           <div
             className={`${style.paddingX} shadow-md w-full dark:bg-dark bg-white fixed z-[100] `}
@@ -43,6 +40,8 @@ const App = () => {
             </div>
           </div>
         </div>
+      ) : (
+        <div className="flex justify-center items-center h-[100vh]">hi</div>
       )}
     </>
   );
