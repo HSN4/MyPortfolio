@@ -6,13 +6,13 @@ import { useEffect, useState } from "react";
 import { uiux } from "../assets";
 
 const Hero = () => {
-  const [isLoaded, setIsLoaded] = useState(false);
+  // const [isLoaded, setIsLoaded] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoaded(true);
-    }, 1000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoaded(true);
+  //   }, 10);
+  // }, []);
 
   const href =
     "https://www.canva.com/design/DAFtcaNjzNw/SIS3cPfWWTJt1Q3DJxs04g/view?utm_content=DAFtcaNjzNw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink";
@@ -76,16 +76,16 @@ const Hero = () => {
           }
         </Reveal>
       </div>
-      {isLoaded ? (
-        <div>
-          <iframe
-            src="https://my.spline.design/noisedisplacecopy-2617893339df9b20eb9fb2f527d0bdc1/"
-            className="ss:w-[500px] w-[400px] ss:h-[500px] h-[400px] ss:scale-100 scale-[0.70] "
-          ></iframe>
-        </div>
-      ) : (
+      {/* {isLoaded ? ( */}
+      <div className="ss:h-[500px] h-[330px]">
+        <iframe
+          src="https://my.spline.design/noisedisplacecopy-2617893339df9b20eb9fb2f527d0bdc1/"
+          className="ss:w-[500px] w-[400px] ss:h-[500px] h-[400px] ss:scale-100 scale-[0.70] "
+        ></iframe>
+      </div>
+      {/* ) : (
         ""
-      )}
+      )} */}
     </section>
   );
 };
