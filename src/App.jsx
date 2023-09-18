@@ -7,6 +7,7 @@ import {
   ContactMe,
   Footer,
 } from "./components";
+import DotLoader from "react-spinners/DotLoader";
 
 import { useState, useEffect } from "react";
 
@@ -14,13 +15,22 @@ const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
+    setIsLoaded(true);
     setTimeout(() => {
-      setIsLoaded(true);
-    }, 1000);
+      setIsLoaded(false);
+    }, 2000);
   }, []);
   return (
     <>
       {isLoaded ? (
+        <div className="flex justify-center items-center h-[100vh]">
+          <DotLoader
+            color={"var(--primary-color)"}
+            loading={isLoaded}
+            size={50}
+          />
+        </div>
+      ) : (
         <div className="w-full dark:bg-dark dark:text-white ">
           <div
             className={`${style.paddingX} shadow-md w-full dark:bg-dark bg-white fixed z-[100] `}
@@ -40,8 +50,6 @@ const App = () => {
             </div>
           </div>
         </div>
-      ) : (
-        <div className="h-[100vh] flex justify-center items-center">hi</div>
       )}
     </>
   );
