@@ -16,7 +16,7 @@ const ContactMe = () => {
     <>
       <div
         id="contactme"
-        className={`${style.paddingY} flex md:justify-between justify-center gap-12 items-center mt-[60px] flex-wrap `}
+        className={`${style.paddingY} flex sm:justify-between justify-center gap-12 items-center mt-[60px] flex-wrap `}
       >
         <Form />
         <Reveal>
