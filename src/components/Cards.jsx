@@ -7,12 +7,9 @@ const Cards = ({ item }) => {
   return (
     <div className="flex flex-wrap lg:justify-center  justify-center items-center gap-12 ">
       {item.map((card) => (
-        <Upcard>
+        <Upcard key={card.id}>
           {
-            <div
-              key={card.id}
-              className="w-[340px] h-[376px] overflow-hidden  rounded-t-[12px]  mb-[40px] pb-8  border-solid border-b-2 border-[#8585855f]  card  "
-            >
+            <div className="w-[340px] h-[376px] overflow-hidden  rounded-t-[12px]  mb-[40px] pb-8  border-solid border-b-2 border-[#8585855f]  card  ">
               <div className="h-[210px] overflow-hidden">
                 <img
                   src={card.image}
