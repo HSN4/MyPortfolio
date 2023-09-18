@@ -7,7 +7,6 @@ import {
   ContactMe,
   Footer,
 } from "./components";
-import DotLoader from "react-spinners/DotLoader";
 
 import { useState, useEffect } from "react";
 
@@ -18,18 +17,12 @@ const App = () => {
     setIsLoaded(true);
     setTimeout(() => {
       setIsLoaded(false);
-    }, 2400);
+    }, 1000);
   }, []);
   return (
     <>
       {isLoaded ? (
-        <div className="flex justify-center items-center h-[100vh]">
-          <DotLoader
-            color={"var(--primary-color)"}
-            loading={isLoaded}
-            size={50}
-          />
-        </div>
+        <div className="flex justify-center items-center h-[100vh]">hi</div>
       ) : (
         <div className="w-full dark:bg-dark dark:text-white ">
           <div
