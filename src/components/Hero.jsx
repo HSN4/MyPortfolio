@@ -2,12 +2,8 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Textspan from "./Textspan";
 import Buttons from "./Buttons";
 import Reveal from "./Reveal";
-import { useEffect, useState } from "react";
-import { uiux } from "../assets";
 
 const Hero = () => {
-  const href =
-    "https://www.canva.com/design/DAFtcaNjzNw/SIS3cPfWWTJt1Q3DJxs04g/view?utm_content=DAFtcaNjzNw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink";
   const sentens = "HUSSEIN".split("");
   const sentens2 = "Hello I’m".split("");
   const [text] = useTypewriter({
@@ -66,8 +62,12 @@ const Hero = () => {
 
           <Reveal>
             {
-              <div className="ml-2 mt-4">
-                <Buttons Text={"Live CV"} href={uiux} width={"w-[100px]"} />
+              <div className="ml-2 mt-4 ">
+                <Buttons
+                  href={"#contactme"}
+                  Text={"CONTACT ME"}
+                  width={"w-[150px]"}
+                />
               </div>
             }
           </Reveal>

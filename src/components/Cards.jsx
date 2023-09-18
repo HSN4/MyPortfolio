@@ -24,8 +24,8 @@ const Cards = ({ item }) => {
                 </p>
               </div>
               <div className="flex justify-between items-center  pt-4">
-                <Buttons Text={"View"} href={card.url} />
-                <a href={card.code}>
+                <Buttons Text={"View"} href={card.url} target={"_blank"} />
+                <a href={card.code} target={"_blank"}>
                   {card.cate === "frontend" ? (
                     <AiFillGithub className="text-[34px]" />
                   ) : (

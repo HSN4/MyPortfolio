@@ -22,7 +22,7 @@ import card10 from "./10.png";
 import card11 from "./11.png";
 import card12 from "./12.png";
 import card13 from "./13.png";
-import uiux from "./UIUX.pdf";
+import uiuxfrontend from "./uiuxfrontend.pdf";
 
 export {
   card0,
@@ -49,5 +49,5 @@ export {
   card11,
   card12,
   card13,
-  uiux,
+  uiuxfrontend,
 };
