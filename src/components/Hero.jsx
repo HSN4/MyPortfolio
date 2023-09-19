@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="  sm:block flex relative flex-col justify-center items-center">
           <Reveal>
             {
-              <p className="ss:text-[90px]  text-[20px]   font-medium dark:text-whitecolor text-secondary ">
+              <p className="ss:text-[40px]  text-[20px]   font-medium dark:text-whitecolor text-secondary ">
                 {sentens2.map((letter, index) => (
                   <Textspan key={index}>
                     {letter === " " ? "\u00A0" : letter}

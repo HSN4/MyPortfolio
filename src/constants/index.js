@@ -6,6 +6,7 @@ import {
   react,
   figma,
   git,
+  tailwind,
   card1,
   card2,
   card3,
@@ -71,6 +72,11 @@ export const mySkills = [
     id: "figma",
     title: "Figma",
     icon: figma,
+  },
+  {
+    id: "tailwind",
+    title: "Tailwind",
+    icon: tailwind,
   },
   {
     id: "git",
