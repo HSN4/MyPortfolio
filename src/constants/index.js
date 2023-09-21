@@ -21,6 +21,7 @@ import {
   card11,
   card12,
   card13,
+  xd,
 } from "../assets";
 
 export const navLinks = [
@@ -72,6 +73,11 @@ export const mySkills = [
     id: "figma",
     title: "Figma",
     icon: figma,
+  },
+  {
+    id: "xd",
+    title: "Adobe XD",
+    icon: xd,
   },
   {
     id: "tailwind",

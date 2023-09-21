@@ -23,8 +23,10 @@ import card11 from "./11.png";
 import card12 from "./12.png";
 import card13 from "./13.png";
 import uiuxfrontend from "./uiuxfrontend.pdf";
+import xd from "./xd.svg";
 
 export {
+  xd,
   card0,
   css,
   html,
