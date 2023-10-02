@@ -7,10 +7,10 @@ const Hero = () => {
   const sentens = "HUSSEIN".split("");
   const sentens2 = "Hello I’m".split("");
   const [text] = useTypewriter({
-    words: ["Frontend Developer", "UI/UX Designer"],
+    words: ["UI/UX Designer", "Frontend Developer"],
     loop: {},
-    typeSpeed: 110,
-    deleteSpeed: 110,
+    typeSpeed: 80,
+    deleteSpeed: 80,
   });
 
   return (
