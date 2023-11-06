@@ -21,6 +21,7 @@ import {
   card11,
   card12,
   card13,
+  card15,
   xd,
   card14,
 } from "../assets";
@@ -170,12 +171,12 @@ export const cards = [
     code: "https://www.behance.net/7ussein7ussein",
   },
   {
-    id: "12",
-    image: card12,
+    id: "15",
+    image: card15,
     cate: "UI/UX",
-    title: "Anime Cloud",
+    title: "Glasses Shop",
     dis: "Figma",
-    url: "https://www.behance.net/gallery/178598627/Mobile-App-Redesign",
+    url: "https://www.behance.net/gallery/181623321/Glasses-Shop",
     code: "https://www.behance.net/7ussein7ussein",
   },
   {
@@ -205,6 +206,15 @@ export const cards = [
     title: "Sweets App",
     dis: "Figma",
     url: "https://www.behance.net/gallery/180177025/Sweets-App",
+    code: "https://www.behance.net/7ussein7ussein",
+  },
+  {
+    id: "12",
+    image: card12,
+    cate: "UI/UX",
+    title: "Anime Cloud",
+    dis: "Figma",
+    url: "https://www.behance.net/gallery/178598627/Mobile-App-Redesign",
     code: "https://www.behance.net/7ussein7ussein",
   },
   {
