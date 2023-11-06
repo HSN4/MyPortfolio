@@ -22,6 +22,7 @@ import {
   card12,
   card13,
   xd,
+  card14,
 } from "../assets";
 
 export const navLinks = [
@@ -158,6 +159,15 @@ export const cards = [
     dis: "HTML & CSS & Js & JSON",
     url: "https://hsn4.github.io/javascript-question/",
     code: "https://github.com/HSN4/javascript-question",
+  },
+  {
+    id: "14",
+    image: card14,
+    cate: "UI/UX",
+    title: "Online Courses",
+    dis: "Figma & Miro & Zeplin",
+    url: "https://www.behance.net/gallery/183845751/Online-courses-to-learn-drawing-Case-Study",
+    code: "https://www.behance.net/7ussein7ussein",
   },
   {
     id: "12",

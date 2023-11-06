@@ -22,6 +22,7 @@ import card10 from "./10.png";
 import card11 from "./11.png";
 import card12 from "./12.png";
 import card13 from "./13.png";
+import card14 from "./14.png";
 import uiuxfrontend from "./uiuxfrontend.pdf";
 import xd from "./xd.svg";
 
@@ -51,5 +52,6 @@ export {
   card11,
   card12,
   card13,
+  card14,
   uiuxfrontend,
 };
