@@ -108,7 +108,7 @@ export const cards = [
     image: card9,
     cate: "UI/UX",
     title: "Esmani App",
-    dis: "HTML & CSS & Js ",
+    dis: "Figma - Miro ",
     url: "https://www.behance.net/gallery/180100861/Esmani-app-(Case-Study)",
     code: "https://www.behance.net/7ussein7ussein",
   },
