@@ -103,15 +103,7 @@ export const cards = [
     url: "https://hsn4.github.io/react-game-hub/",
     code: "https://github.com/HSN4/react-game-hub",
   },
-  {
-    id: "14",
-    image: card14,
-    cate: "UI/UX",
-    title: "Online Courses",
-    dis: "Figma & Miro & Zeplin",
-    url: "https://www.behance.net/gallery/183845751/Online-courses-to-learn-drawing-Case-Study",
-    code: "https://www.behance.net/7ussein7ussein",
-  },
+
   {
     id: "9",
     image: card9,
@@ -149,6 +141,15 @@ export const cards = [
     dis: "Figma ",
     url: "https://www.behance.net/gallery/176861915/Online-Courses-App-Barmej",
     code: "https://github.com/HSN4/weekaway-react",
+  },
+  {
+    id: "14",
+    image: card14,
+    cate: "UI/UX",
+    title: "Online Courses",
+    dis: "Figma & Miro & Zeplin",
+    url: "https://www.behance.net/gallery/183845751/Online-courses-to-learn-drawing-Case-Study",
+    code: "https://www.behance.net/7ussein7ussein",
   },
   {
     id: "3",
